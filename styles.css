@@ -337,38 +337,41 @@ h3 {
   gap: 26px;
 }
 
-.portrait-card {
-  position: relative;
-  max-width: 320px;
-  margin: 10px 0 0;
-  overflow: hidden;
+.profile-signature {
+  display: flex;
+  width: fit-content;
+  max-width: 100%;
+  align-items: center;
+  gap: 14px;
+  margin: 8px 0 0;
+  padding: 12px 14px 12px 12px;
   border: 1px solid rgba(31, 106, 82, 0.18);
   border-radius: 8px;
-  background: var(--forest);
-  box-shadow: var(--shadow);
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 16px 44px rgba(16, 32, 29, 0.08);
 }
 
-.portrait-card img {
-  width: 100%;
-  aspect-ratio: 1 / 1;
+.profile-signature img {
+  width: 72px;
+  height: 72px;
+  flex: 0 0 auto;
+  border-radius: 50%;
   object-fit: cover;
   object-position: center;
 }
 
-.portrait-card figcaption {
+.profile-signature figcaption {
   display: grid;
   gap: 2px;
-  padding: 16px;
-  color: var(--white);
-  background: linear-gradient(180deg, rgba(16, 32, 29, 0.78), rgba(16, 32, 29, 0.96));
 }
 
-.portrait-card figcaption strong {
+.profile-signature figcaption strong {
+  color: var(--ink);
   font-size: 1rem;
 }
 
-.portrait-card figcaption span {
-  color: rgba(255, 255, 255, 0.72);
+.profile-signature figcaption span {
+  color: var(--muted);
   font-size: 0.9rem;
   font-weight: 650;
 }
