@@ -337,44 +337,6 @@ h3 {
   gap: 26px;
 }
 
-.profile-signature {
-  display: flex;
-  width: fit-content;
-  max-width: 100%;
-  align-items: center;
-  gap: 14px;
-  margin: 8px 0 0;
-  padding: 12px 14px 12px 12px;
-  border: 1px solid rgba(31, 106, 82, 0.18);
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.7);
-  box-shadow: 0 16px 44px rgba(16, 32, 29, 0.08);
-}
-
-.profile-signature img {
-  width: 72px;
-  height: 72px;
-  flex: 0 0 auto;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center;
-}
-
-.profile-signature figcaption {
-  display: grid;
-  gap: 2px;
-}
-
-.profile-signature figcaption strong {
-  color: var(--ink);
-  font-size: 1rem;
-}
-
-.profile-signature figcaption span {
-  color: var(--muted);
-  font-size: 0.9rem;
-  font-weight: 650;
-}
 
 .section-heading {
   max-width: 850px;
