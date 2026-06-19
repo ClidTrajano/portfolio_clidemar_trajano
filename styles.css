@@ -355,6 +355,10 @@ h3 {
   gap: 18px;
 }
 
+.paper-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .project-card,
 .paper-card,
 .service-grid article {
