@@ -752,6 +752,12 @@ h3 {
   font-size: clamp(1.7rem, 3vw, 2.65rem);
 }
 
+.paper-body h2 {
+  margin: 52px 0 16px;
+  color: var(--ink);
+  font-size: clamp(1.6rem, 3vw, 2.35rem);
+}
+
 .article-body h2:first-child {
   margin-top: 0;
 }
